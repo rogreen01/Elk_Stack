@@ -117,11 +117,11 @@ SSH into the control node and follow the steps below:
 
 Specific commands the user will need to run to download the playbook
 
-nano ansible.cfg
-add the machine, its IP, and ansible_python_interpreter=/usr/bin/python3 to the hosts
-Ctrl + x to exit file
-in the folder that install-elk.yml is in, run: cp install-elk.yml /etc/ansible
-nano install-elk.yml /etc/ansible
-name: installing elk hosts: [your_machine]
-Ctrl + x to exit file
-ansible-playbook install-elk.yml
+- nano ansible.cfg
+- add the machine, its IP, and ansible_python_interpreter=/usr/bin/python3 to the hosts
+- Ctrl + x to exit file
+- In the folder that install-elk.yml is in, run: cp install-elk.yml /etc/ansible
+- nano install-elk.yml /etc/ansible
+  - name: installing elk hosts: [your_machine]
+- Ctrl + x to exit file
+- ansible-playbook install-elk.yml
