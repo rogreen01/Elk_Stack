@@ -10,6 +10,10 @@ These files have been tested and used to generate a live ELK deployment on Azure
  
 ![](Images/filebeat..png)
 
+- [filebeat-playbook](Ansible/filebeat-playbook.yml)
+  - [filebeat-config](Ansible/filebeat-config.yml)
+  - [install-elk](Ansible/install-elk.yml)
+  - [my-playbook](Ansible/my-playbook.yml)
 
 
 This document contains the following details:
